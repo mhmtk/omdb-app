@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".ui.main.MainActivity">
+  <!--<item-->
+      <!--android:id="@+id/action_search"-->
+      <!--app:actionLayout="@layout/simple_search_view_item"-->
+      <!--android:title="Search"-->
+      <!--android:icon="@android:drawable/ic_menu_search"-->
+      <!--app:showAsAction="always|collapseActionView"-->
+  <!--/>-->
+
+  <item android:id="@+id/action_search"
+        android:title="Search"
+        android:icon="@drawable/ic_magnifying_glass_yellow"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+</menu>
