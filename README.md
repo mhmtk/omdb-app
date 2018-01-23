@@ -1,4 +1,4 @@
 # omdb-app
-Repo doesn't have the API key, to use one add the following like to 'gradle.properties'
+The repo does not contain an API key, add the following line (with an actual API key) a file named gradle.properties
 
     API_KEY="0000000"
